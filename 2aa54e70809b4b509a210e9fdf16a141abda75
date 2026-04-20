@@ -1,0 +1,18 @@
+Initial homepage build - full statistics site v1.0
+
+- Homepage with hero section and animated stat counters
+- National spending bar chart (Chart.js)
+- Online vs venue donut chart
+- Activity participation horizontal bar chart
+- Interactive SVG map of Australia with state hover tooltips
+- Risky gambling trend line chart (2019-2025)
+- Pokies spotlight section
+- Sports betting stats grid
+- Sortable state revenue table
+- Responsible gambling section with govt links
+- News placeholder tiles
+- Author/EEAT bios section
+- Full navigation with state dropdown
+- Placeholder pages for all subpages and state pages
+- vercel.json with clean URLs
+- Mobile responsive layout

@@ -1,1 +1,613 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>Betting in Australia</title><link rel="stylesheet" href="../css/style.css"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet"/></head><body><header class="site-header"><div class="container header-inner"><a href="/" class="logo"><svg viewBox="0 0 260 40" xmlns="http://www.w3.org/2000/svg"><text x="0" y="30" font-family="'Playfair Display',serif" font-weight="900" font-size="20" fill="#F2C94C">Betting in Australia</text></svg></a></div></header><section class="section-block" style="min-height:60vh;display:flex;align-items:center;"><div class="container"><span class="section-tag">Coming Soon</span><h2>This page is under construction.</h2><p class="section-intro">Full content is being prepared. <a href="/">Return to homepage</a></p></div></section><footer class="site-footer"><div class="container footer-inner"><div class="footer-bottom"><p class="copyright">&copy; 2026 Betting in Australia</p></div></div></footer></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Betting in Australia – Gambling Statistics, News & Data</title>
+  <meta name="description" content="Australia's leading source for gambling statistics, betting news, and state-by-state data. Independent research covering pokies, sports betting, casino, and online gambling." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://betinaustralia.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Betting in Australia – Gambling Statistics & News" />
+  <meta property="og:description" content="Independent data and news on Australian gambling. Stats on pokies, sports betting, casino and online gambling by state." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://betinaustralia.com/" />
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Betting in Australia",
+    "url": "https://betinaustralia.com",
+    "description": "Australia's leading source for gambling statistics and news",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Betting in Australia",
+      "url": "https://betinaustralia.com"
+    }
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet" />
+
+  <!-- Chart.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ===================== HEADER / NAV ===================== -->
+<header class="site-header" id="site-header">
+  <div class="container header-inner">
+    <a href="/" class="logo" aria-label="Betting in Australia – Home">
+      <svg class="logo-svg" viewBox="0 0 320 56" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <!-- Kangaroo left -->
+        <g transform="translate(2,4)">
+          <ellipse cx="18" cy="32" rx="9" ry="13" fill="#F2C94C" opacity="0.92"/>
+          <ellipse cx="18" cy="18" rx="6" ry="7" fill="#F2C94C" opacity="0.92"/>
+          <ellipse cx="22" cy="13" rx="3" ry="5" fill="#F2C94C" opacity="0.92"/>
+          <ellipse cx="14" cy="13" rx="2" ry="4" fill="#F2C94C" opacity="0.92" transform="rotate(-15,14,13)"/>
+          <line x1="18" y1="44" x2="12" y2="50" stroke="#F2C94C" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="18" y1="44" x2="24" y2="50" stroke="#F2C94C" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="27" y1="37" x2="34" y2="30" stroke="#F2C94C" stroke-width="2" stroke-linecap="round"/>
+        </g>
+        <!-- Site name -->
+        <text x="46" y="38" font-family="'Playfair Display', serif" font-weight="900" font-size="22" fill="#FFFFFF" letter-spacing="0.5">Betting in Australia</text>
+        <!-- Southern Cassowary right -->
+        <g transform="translate(280,4)">
+          <ellipse cx="18" cy="30" rx="9" ry="14" fill="#F2C94C" opacity="0.92"/>
+          <ellipse cx="18" cy="15" rx="6" ry="8" fill="#F2C94C" opacity="0.92"/>
+          <rect x="15" y="7" width="4" height="9" rx="2" fill="#1a6b3a"/>
+          <rect x="16" y="5" width="4" height="5" rx="2" fill="#F2C94C" opacity="0.7"/>
+          <line x1="18" y1="43" x2="12" y2="50" stroke="#F2C94C" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="18" y1="43" x2="24" y2="50" stroke="#F2C94C" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="9" y1="35" x2="2" y2="28" stroke="#F2C94C" stroke-width="2" stroke-linecap="round"/>
+        </g>
+      </svg>
+    </a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="/" class="active">Home</a></li>
+        <li><a href="/pages/statistics.html">Statistics</a></li>
+        <li><a href="/pages/betting.html">Betting</a></li>
+        <li><a href="/pages/casino.html">Casino</a></li>
+        <li><a href="/pages/poker.html">Poker</a></li>
+        <li><a href="/pages/pokies.html">Pokies</a></li>
+        <li class="has-dropdown">
+          <a href="/states/">State Data ▾</a>
+          <ul class="dropdown">
+            <li><a href="/states/nsw.html">New South Wales</a></li>
+            <li><a href="/states/vic.html">Victoria</a></li>
+            <li><a href="/states/qld.html">Queensland</a></li>
+            <li><a href="/states/wa.html">Western Australia</a></li>
+            <li><a href="/states/sa.html">South Australia</a></li>
+            <li><a href="/states/tas.html">Tasmania</a></li>
+            <li><a href="/states/nt.html">Northern Territory</a></li>
+            <li><a href="/states/act.html">ACT</a></li>
+          </ul>
+        </li>
+        <li><a href="/pages/responsible-gambling.html">Responsible Gambling</a></li>
+        <li><a href="/pages/about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" aria-labelledby="hero-heading">
+  <div class="container hero-inner">
+    <div class="hero-text">
+      <p class="hero-eyebrow">Independent · Data-driven · Updated 2025</p>
+      <h1 id="hero-heading">Australia's Leading Source for<br><span class="hero-highlight">Gambling Statistics &amp; News</span></h1>
+      <p class="hero-sub">Verified data from government and academic sources. Covering pokies, sports betting, casino, and online gambling across every state and territory.</p>
+    </div>
+    <div class="hero-stats" aria-label="Key gambling statistics">
+      <div class="stat-card" data-target="244.3" data-suffix="B" data-prefix="$">
+        <span class="stat-value" id="stat-turnover">$0</span>
+        <span class="stat-label">Total bets placed (2022–23)</span>
+        <span class="stat-source"><a href="https://www.qgso.qld.gov.au/statistics/theme/society/gambling/australian-gambling-statistics" rel="nofollow noopener" target="_blank">Source: QGSO</a></span>
+      </div>
+      <div class="stat-card" data-target="31.5" data-suffix="B" data-prefix="$">
+        <span class="stat-value" id="stat-losses">$0</span>
+        <span class="stat-label">Total net losses (2022–23)</span>
+        <span class="stat-source"><a href="https://www.qgso.qld.gov.au/statistics/theme/society/gambling/australian-gambling-statistics" rel="nofollow noopener" target="_blank">Source: QGSO</a></span>
+      </div>
+      <div class="stat-card" data-target="1527" data-suffix="" data-prefix="$">
+        <span class="stat-value" id="stat-percapita">$0</span>
+        <span class="stat-label">Average loss per adult</span>
+        <span class="stat-source"><a href="https://www.aihw.gov.au/reports/australias-welfare/gambling" rel="nofollow noopener" target="_blank">Source: AIHW</a></span>
+      </div>
+      <div class="stat-card" data-target="56.1" data-suffix="%" data-prefix="">
+        <span class="stat-value" id="stat-online">0%</span>
+        <span class="stat-label">Gamblers now mainly online (2025)</span>
+        <span class="stat-source"><a href="https://polis.cass.anu.edu.au/files/docs/2025/10/Gambling-in-Australia-2025-for-publication-v2.pdf" rel="nofollow noopener" target="_blank">Source: ANU POLIS</a></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== NATIONAL SPENDING OVERVIEW ===================== -->
+<section class="section-block" id="spending-overview" aria-labelledby="spending-heading">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">National Overview</span>
+      <h2 id="spending-heading">Australian Gambling Expenditure</h2>
+      <p class="section-intro">Australia ranks as the world's highest per-capita gambling nation. Total gambling turnover reached <strong>$244.3 billion</strong> in 2022–23 — an 18.2% increase year-on-year — while net player losses hit <strong>$31.5 billion</strong>. Online gambling now accounts for <a href="https://www.qgso.qld.gov.au/statistics/theme/society/gambling/australian-gambling-statistics" rel="nofollow noopener" target="_blank">one-third of all gambling activity</a>, with turnover up 165.7% to $75.4 billion. In August 2024, the Australian Government banned the use of credit cards for online betting to reduce financial harm.</p>
+    </div>
+    <div class="chart-wrap">
+      <canvas id="expenditureChart" role="img" aria-label="Bar chart of Australian gambling expenditure from 2018-19 to 2022-23"></canvas>
+    </div>
+    <p class="chart-caption">Total gambling expenditure (net losses) AUD billions. Source: <a href="https://www.aihw.gov.au/reports/australias-welfare/gambling" rel="nofollow noopener" target="_blank">AIHW</a> / <a href="https://www.qgso.qld.gov.au/statistics/theme/society/gambling/australian-gambling-statistics" rel="nofollow noopener" target="_blank">QGSO 40th Edition</a></p>
+  </div>
+</section>
+
+<!-- ===================== ONLINE vs VENUE ===================== -->
+<section class="section-block section-alt" id="online-gambling" aria-labelledby="online-heading">
+  <div class="container two-col">
+    <div class="col-text">
+      <span class="section-tag">Online Gambling</span>
+      <h2 id="online-heading">The Digital Shift</h2>
+      <p>For the first time in 2024, <a href="https://polis.cass.anu.edu.au/research/publications/gambling-participation-australia-2025" rel="nofollow noopener" target="_blank">online gambling surpassed venue-based gambling</a> in Australia. By 2025, 56.1% of gamblers were mainly participating online. Sports betting is almost entirely digital at 95.6%, followed by race betting at 76.9%.</p>
+      <ul class="stat-list">
+        <li><strong>33.4%</strong> of all Australian adults engaged in online gambling in the past year</li>
+        <li><strong>$75.4B</strong> online gambling turnover — up 165.7% year-on-year</li>
+        <li><strong>95.6%</strong> of sports betting conducted online</li>
+        <li><strong>76.9%</strong> of race betting conducted online</li>
+        <li>Online EGM play grew despite legal restrictions</li>
+      </ul>
+      <a href="/pages/statistics.html" class="btn-link">View full online gambling statistics →</a>
+    </div>
+    <div class="col-chart">
+      <canvas id="onlineVenueChart" role="img" aria-label="Donut chart showing online vs venue gambling split"></canvas>
+      <p class="chart-caption">Gambling mode split, 2025. Source: <a href="https://polis.cass.anu.edu.au/files/docs/2025/10/Gambling-in-Australia-2025-for-publication-v2.pdf" rel="nofollow noopener" target="_blank">ANU POLIS 2025</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ACTIVITY BREAKDOWN ===================== -->
+<section class="section-block" id="activity-breakdown" aria-labelledby="activity-heading">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Participation by Activity</span>
+      <h2 id="activity-heading">Most Popular Gambling Activities in Australia</h2>
+      <p class="section-intro">Lotteries remain the most common form of gambling, but activities with the highest harm rates — EGMs, sports and race betting — continue to attract significant participation. <a href="https://polis.cass.anu.edu.au/files/docs/2025/10/Gambling-in-Australia-2025-for-publication-v2.pdf" rel="nofollow noopener" target="_blank">ANU POLIS 2025 data</a> shows sports betting had 88.5% of participation conducted online.</p>
+    </div>
+    <div class="chart-wrap chart-wrap--horiz">
+      <canvas id="activityChart" role="img" aria-label="Horizontal bar chart of gambling participation by activity type"></canvas>
+    </div>
+    <p class="chart-caption">% of Australian adult population participating in each activity (2025). Source: <a href="https://polis.cass.anu.edu.au/files/docs/2025/10/Gambling-in-Australia-2025-for-publication-v2.pdf" rel="nofollow noopener" target="_blank">ANU POLIS 2025</a></p>
+    <div class="activity-links">
+      <a href="/pages/pokies.html" class="activity-pill">🎰 Pokies</a>
+      <a href="/pages/betting.html" class="activity-pill">🏇 Sports &amp; Racing</a>
+      <a href="/pages/casino.html" class="activity-pill">🃏 Casino</a>
+      <a href="/pages/poker.html" class="activity-pill">♠️ Poker</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== INTERACTIVE MAP ===================== -->
+<section class="section-block section-alt" id="state-map" aria-labelledby="map-heading">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">State &amp; Territory Data</span>
+      <h2 id="map-heading">Gambling Statistics by State</h2>
+      <p class="section-intro">Gambling is regulated state-by-state in Australia, with significant variation in revenue, dominant products and problem gambling rates. Hover over any state to see key statistics, or click through to the full state page.</p>
+    </div>
+    <div class="map-container">
+      <div class="map-tooltip" id="map-tooltip" role="tooltip" aria-live="polite"></div>
+      <svg id="aus-map" viewBox="0 0 800 700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Interactive map of Australian states and territories with gambling statistics">
+        <title>Australian States Gambling Statistics Map</title>
+
+        <!-- WA -->
+        <path id="state-WA" class="state-path" data-state="WA" data-name="Western Australia"
+          data-turnover="~$28B" data-losses="~$2.8B" data-tax="Lowest rate (0.9%)" data-note="No EGMs in pubs or clubs"
+          d="M 80,80 L 280,80 L 280,520 L 80,520 Z"
+          aria-label="Western Australia"/>
+        <text class="state-label" x="180" y="300">WA</text>
+
+        <!-- NT -->
+        <path id="state-NT" class="state-path" data-state="NT" data-name="Northern Territory"
+          data-turnover="~$3.6B" data-losses="~$0.9B" data-tax="Highest rate (12%)" data-note="Highest problem gambling rate nationally"
+          d="M 280,80 L 430,80 L 430,340 L 280,340 Z"
+          aria-label="Northern Territory"/>
+        <text class="state-label" x="355" y="210">NT</text>
+
+        <!-- QLD -->
+        <path id="state-QLD" class="state-path" data-state="QLD" data-name="Queensland"
+          data-turnover="~$38B" data-losses="~$4.8B" data-tax="~$1.6B" data-note="Publishes the national Australian Gambling Statistics annually"
+          d="M 430,80 L 650,80 L 650,370 L 430,370 Z"
+          aria-label="Queensland"/>
+        <text class="state-label" x="540" y="220">QLD</text>
+
+        <!-- SA -->
+        <path id="state-SA" class="state-path" data-state="SA" data-name="South Australia"
+          data-turnover="~$12B" data-losses="~$1.4B" data-tax="~$0.5B" data-note="Strong pokies culture; recent reform push"
+          d="M 280,340 L 430,340 L 480,520 L 280,520 Z"
+          aria-label="South Australia"/>
+        <text class="state-label" x="360" y="440">SA</text>
+
+        <!-- NSW -->
+        <path id="state-NSW" class="state-path" data-state="NSW" data-name="New South Wales"
+          data-turnover="$114.6B" data-losses="~$8.5B" data-tax=">$2B" data-note="~95,800 pokies — most outside Nevada"
+          d="M 480,340 L 650,340 L 650,520 L 480,520 Z"
+          aria-label="New South Wales"/>
+        <text class="state-label" x="565" y="435">NSW</text>
+
+        <!-- VIC -->
+        <path id="state-VIC" class="state-path" data-state="VIC" data-name="Victoria"
+          data-turnover="$44.1B" data-losses="$7.3B" data-tax="$2.4B" data-note="Max pokie bet cut to $100 in 2024"
+          d="M 430,520 L 650,520 L 650,620 L 430,620 Z"
+          aria-label="Victoria"/>
+        <text class="state-label" x="540" y="575">VIC</text>
+
+        <!-- TAS -->
+        <path id="state-TAS" class="state-path" data-state="TAS" data-name="Tasmania"
+          data-turnover="~$3.2B" data-losses="~$0.5B" data-tax="~$0.18B" data-note="Debating phasing out EGMs from pubs and clubs"
+          d="M 590,640 L 660,640 L 660,695 L 590,695 Z"
+          aria-label="Tasmania"/>
+        <text class="state-label" x="625" y="672">TAS</text>
+
+        <!-- ACT -->
+        <path id="state-ACT" class="state-path" data-state="ACT" data-name="Australian Capital Territory"
+          data-turnover="~$3.5B" data-losses="~$0.4B" data-tax="~$0.14B" data-note="No casino; limited EGMs in clubs only"
+          d="M 560,500 L 600,500 L 600,535 L 560,535 Z"
+          aria-label="Australian Capital Territory"/>
+        <text class="state-label" style="font-size:9px" x="580" y="520">ACT</text>
+
+        <!-- Dotted outline for ACT marker -->
+        <rect x="558" y="498" width="44" height="39" rx="4" fill="none" stroke="#F2C94C" stroke-width="1.5" stroke-dasharray="4,2"/>
+      </svg>
+    </div>
+    <p class="chart-caption">Hover over each state to view key gambling statistics. Click to view full state data page. Sources: <a href="https://www.qgso.qld.gov.au/statistics/theme/society/gambling/australian-gambling-statistics" rel="nofollow noopener" target="_blank">QGSO 40th Edition</a>, <a href="https://www.vgccc.vic.gov.au/for-community/gambling-victoria/gambling-data" rel="nofollow noopener" target="_blank">VGCCC</a></p>
+    <div class="state-grid">
+      <a href="/states/nsw.html" class="state-card"><strong>NSW</strong><span>$114.6B turnover</span></a>
+      <a href="/states/vic.html" class="state-card"><strong>VIC</strong><span>$7.3B losses</span></a>
+      <a href="/states/qld.html" class="state-card"><strong>QLD</strong><span>~$4.8B losses</span></a>
+      <a href="/states/wa.html" class="state-card"><strong>WA</strong><span>No pub EGMs</span></a>
+      <a href="/states/sa.html" class="state-card"><strong>SA</strong><span>~$1.4B losses</span></a>
+      <a href="/states/tas.html" class="state-card"><strong>TAS</strong><span>EGM reform debate</span></a>
+      <a href="/states/nt.html" class="state-card"><strong>NT</strong><span>Highest harm rate</span></a>
+      <a href="/states/act.html" class="state-card"><strong>ACT</strong><span>~$3.5B turnover</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== HARM TRENDS ===================== -->
+<section class="section-block" id="harm-trends" aria-labelledby="harm-heading">
+  <div class="container two-col">
+    <div class="col-chart">
+      <canvas id="harmTrendChart" role="img" aria-label="Line chart showing risky gambling rate from 2019 to 2025"></canvas>
+      <p class="chart-caption">% of gamblers classified as 'risky' (PGSI 1+), 2019–2025. Source: <a href="https://polis.cass.anu.edu.au/files/docs/2025/10/Gambling-in-Australia-2025-for-publication-v2.pdf" rel="nofollow noopener" target="_blank">ANU POLIS 2025</a></p>
+    </div>
+    <div class="col-text">
+      <span class="section-tag">Gambling Harm</span>
+      <h2 id="harm-heading">Fewer Gamblers, More Harm</h2>
+      <p>A paradox is emerging in Australian gambling: overall participation is declining, yet the rate of risky gambling is surging. <a href="https://polis.cass.anu.edu.au/files/docs/2025/10/Gambling-in-Australia-2025-for-publication-v2.pdf" rel="nofollow noopener" target="_blank">ANU POLIS research</a> shows risky gambling jumped from 13.7% in 2024 to 19.4% in 2025 — nearly doubling since the COVID-19 lockdowns.</p>
+      <div class="harm-stats-grid">
+        <div class="harm-stat"><span class="harm-num">3M+</span><span>Australians reporting gambling-related harm</span></div>
+        <div class="harm-stat"><span class="harm-num">5.9%</span><span>Adults harmed by someone else's gambling</span></div>
+        <div class="harm-stat"><span class="harm-num">35,671</span><span>Registered on BetStop self-exclusion register</span></div>
+        <div class="harm-stat"><span class="harm-num">19.4%</span><span>Risky gambling rate in 2025 (up from 13.7%)</span></div>
+      </div>
+      <p>Those most at risk include young men, low-income households, unemployed individuals, and people from culturally and linguistically diverse backgrounds. <a href="https://www.aihw.gov.au/reports/australias-welfare/gambling" rel="nofollow noopener" target="_blank">AIHW research</a> confirms gambling harm is concentrated among those who can least afford it.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== POKIES SPOTLIGHT ===================== -->
+<section class="section-block section-dark" id="pokies" aria-labelledby="pokies-heading">
+  <div class="container">
+    <div class="pokies-spotlight">
+      <div class="pokies-quote">
+        <p class="big-quote">18% of the world's pokies.<br><span>0.3% of the world's population.</span></p>
+      </div>
+      <div class="pokies-facts">
+        <span class="section-tag">Pokies</span>
+        <h2 id="pokies-heading">Australia's Pokie Problem</h2>
+        <p>Electronic gaming machines — known as "pokies" — are Australia's most lucrative and most harmful form of gambling. <a href="https://readwrite.com/gambling/guides/australian-gambling-statistics/" rel="nofollow noopener" target="_blank">Despite hosting less than 1% of the global population</a>, Australia is home to 18% of the world's poker machines.</p>
+        <ul class="stat-list">
+          <li><strong>157,718</strong> offline pokies operating as of June 2023</li>
+          <li><strong>~95,800</strong> machines in NSW alone — more than any US state outside Nevada</li>
+          <li><strong>$3.145B</strong> lost to hotel/club pokies in Victoria (2024–25)</li>
+          <li>Victoria cut the maximum pokie bet from <strong>$1,000 → $100</strong> in 2024</li>
+          <li>Online pokies generated <strong>$12B in turnover</strong> in 2024</li>
+        </ul>
+        <a href="/pages/pokies.html" class="btn btn-yellow">Full Pokies Statistics →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SPORTS BETTING ===================== -->
+<section class="section-block" id="sports-betting" aria-labelledby="sports-heading">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Sports Betting</span>
+      <h2 id="sports-heading">Sports Betting in Australia</h2>
+      <p class="section-intro">Sports betting is one of the fastest-growing sectors of Australian gambling, driven by mobile apps and aggressive advertising. <a href="https://readwrite.com/gambling/guides/australian-gambling-statistics/" rel="nofollow noopener" target="_blank">Of the 86.7% of regular online sports bettors</a>, 58.5% have wagered on Aussie Rules and the AFL.</p>
+    </div>
+    <div class="sports-grid">
+      <div class="sports-tile">
+        <div class="sports-icon">🏉</div>
+        <strong>AFL / Aussie Rules</strong>
+        <p>58.5% of online bettors have wagered on AFL — the most popular domestic sport for betting</p>
+        <a href="/pages/betting.html" class="tile-link">AFL Betting Stats</a>
+      </div>
+      <div class="sports-tile">
+        <div class="sports-icon">🏇</div>
+        <strong>Horse Racing</strong>
+        <p>Bettors spend an average of <strong>$125/month</strong> on horse racing. The Melbourne Cup alone stops the nation</p>
+        <a href="/pages/betting.html" class="tile-link">Racing Stats</a>
+      </div>
+      <div class="sports-tile">
+        <div class="sports-icon">📱</div>
+        <strong>Mobile &amp; Online Growth</strong>
+        <p>Sports betting participation among men rose from <strong>5.6% → 9.3%</strong> monthly between 2015 and 2022</p>
+        <a href="/pages/statistics.html" class="tile-link">Online Trends</a>
+      </div>
+      <div class="sports-tile">
+        <div class="sports-icon">👨</div>
+        <strong>Demographics</strong>
+        <p>Men aged 18–34 are <strong>5x more likely</strong> to wager on sports than those aged 65+; 48% of men bet weekly</p>
+        <a href="/pages/statistics.html" class="tile-link">Demographics Data</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== STATE REVENUE TABLE ===================== -->
+<section class="section-block section-alt" id="state-table" aria-labelledby="table-heading">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">State Comparison</span>
+      <h2 id="table-heading">Gambling Revenue by State &amp; Territory</h2>
+      <p class="section-intro">Each Australian jurisdiction regulates gambling independently. The table below compares turnover, losses and tax revenue across all eight states and territories. Data sourced from <a href="https://www.qgso.qld.gov.au/statistics/theme/society/gambling/australian-gambling-statistics" rel="nofollow noopener" target="_blank">QGSO 40th Edition (2023–24)</a> and <a href="https://www.vgccc.vic.gov.au/for-community/gambling-victoria/gambling-data" rel="nofollow noopener" target="_blank">VGCCC 2024–25</a>.</p>
+    </div>
+    <div class="table-wrap">
+      <table class="data-table" id="stateTable" aria-label="Gambling revenue by Australian state and territory">
+        <thead>
+          <tr>
+            <th scope="col" class="sortable" data-col="0">State/Territory</th>
+            <th scope="col" class="sortable" data-col="1">Turnover</th>
+            <th scope="col" class="sortable" data-col="2">Net Losses</th>
+            <th scope="col" class="sortable" data-col="3">Tax Revenue</th>
+            <th scope="col">Dominant Product</th>
+            <th scope="col">Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="/states/nsw.html"><strong>New South Wales</strong></a></td>
+            <td data-val="114.6">$114.6B</td>
+            <td data-val="8.5">~$8.5B</td>
+            <td data-val="2">$2B+</td>
+            <td>Pokies</td>
+            <td>~95,800 EGMs; highest absolute revenue</td>
+          </tr>
+          <tr>
+            <td><a href="/states/vic.html"><strong>Victoria</strong></a></td>
+            <td data-val="44.1">$44.1B</td>
+            <td data-val="7.3">$7.3B</td>
+            <td data-val="2.4">$2.4B</td>
+            <td>Pokies / Wagering</td>
+            <td>Highest tax % (3.2%); max bet capped $100</td>
+          </tr>
+          <tr>
+            <td><a href="/states/qld.html"><strong>Queensland</strong></a></td>
+            <td data-val="38">~$38B</td>
+            <td data-val="4.8">~$4.8B</td>
+            <td data-val="1.6">~$1.6B</td>
+            <td>Pokies / Wagering</td>
+            <td>Publishes national gambling statistics</td>
+          </tr>
+          <tr>
+            <td><a href="/states/wa.html"><strong>Western Australia</strong></a></td>
+            <td data-val="28">~$28B</td>
+            <td data-val="2.8">~$2.8B</td>
+            <td data-val="0.5">Lowest (0.9%)</td>
+            <td>Casino / Lotteries</td>
+            <td>No EGMs in pubs or clubs</td>
+          </tr>
+          <tr>
+            <td><a href="/states/sa.html"><strong>South Australia</strong></a></td>
+            <td data-val="12">~$12B</td>
+            <td data-val="1.4">~$1.4B</td>
+            <td data-val="0.5">~$0.5B</td>
+            <td>Pokies / Lotteries</td>
+            <td>Significant pokies culture</td>
+          </tr>
+          <tr>
+            <td><a href="/states/nt.html"><strong>Northern Territory</strong></a></td>
+            <td data-val="3.6">~$3.6B</td>
+            <td data-val="0.9">~$0.9B</td>
+            <td data-val="0.4">12% rate</td>
+            <td>Wagering / Pokies</td>
+            <td>Highest problem gambling rate nationally</td>
+          </tr>
+          <tr>
+            <td><a href="/states/tas.html"><strong>Tasmania</strong></a></td>
+            <td data-val="3.2">~$3.2B</td>
+            <td data-val="0.5">~$0.5B</td>
+            <td data-val="0.18">~$0.18B</td>
+            <td>Pokies / Lotteries</td>
+            <td>Active debate on pub/club EGM phase-out</td>
+          </tr>
+          <tr>
+            <td><a href="/states/act.html"><strong>ACT</strong></a></td>
+            <td data-val="3.5">~$3.5B</td>
+            <td data-val="0.4">~$0.4B</td>
+            <td data-val="0.14">~$0.14B</td>
+            <td>Lotteries / Club EGMs</td>
+            <td>No casino; EGMs in licensed clubs only</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== RESPONSIBLE GAMBLING ===================== -->
+<section class="section-block resp-gambling" id="responsible-gambling" aria-labelledby="resp-heading">
+  <div class="container">
+    <div class="resp-inner">
+      <div class="resp-text">
+        <span class="section-tag tag-warning">⚠ Responsible Gambling</span>
+        <h2 id="resp-heading">Gambling Harm is Real — Help is Available</h2>
+        <p>If gambling is affecting you or someone you know, support is available free of charge across Australia. Recognising the signs — chasing losses, borrowing money to gamble, hiding gambling from loved ones, or feeling anxious about it — is the first step. The BetStop National Self-Exclusion Register allows you to self-exclude from all licensed Australian wagering operators at once. You don't have to manage this alone.</p>
+        <a href="/pages/responsible-gambling.html" class="btn-link">Learn about safeguarding yourself and managing addiction →</a>
+      </div>
+      <div class="resp-links">
+        <a href="https://www.acma.gov.au/" rel="nofollow noopener" target="_blank" class="resp-org">
+          <strong>ACMA</strong>
+          <span>Australian Communications &amp; Media Authority — national gambling regulator</span>
+        </a>
+        <a href="https://responsiblewagering.com.au/" rel="nofollow noopener" target="_blank" class="resp-org">
+          <strong>Responsible Wagering Australia</strong>
+          <span>Industry body promoting responsible gambling standards</span>
+        </a>
+        <a href="https://gamblershelp.com.au/" rel="nofollow noopener" target="_blank" class="resp-org">
+          <strong>Gamblers Help</strong>
+          <span>Free counselling and support for Victorians</span>
+        </a>
+        <a href="https://www.gamblinghelponline.org.au/" rel="nofollow noopener" target="_blank" class="resp-org">
+          <strong>Gambling Help Online</strong>
+          <span>24/7 free online chat and phone support nationally — 1800 858 858</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== NEWS (placeholder) ===================== -->
+<section class="section-block" id="news" aria-labelledby="news-heading">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Latest News</span>
+      <h2 id="news-heading">Australian Gambling News</h2>
+      <p class="section-intro">News and analysis covering betting regulation, casino updates, pokies reform and online gambling in Australia.</p>
+    </div>
+    <div class="news-grid">
+      <article class="news-card news-card--placeholder">
+        <span class="news-cat cat-betting">Betting</span>
+        <h3>Coming Soon</h3>
+        <p>The latest news and analysis on Australian sports betting regulation and market developments will appear here.</p>
+        <span class="news-date">Publication date: TBC</span>
+      </article>
+      <article class="news-card news-card--placeholder">
+        <span class="news-cat cat-pokies">Pokies</span>
+        <h3>Coming Soon</h3>
+        <p>Updates on Electronic Gaming Machine reforms across Australian states and territories.</p>
+        <span class="news-date">Publication date: TBC</span>
+      </article>
+      <article class="news-card news-card--placeholder">
+        <span class="news-cat cat-casino">Casino</span>
+        <h3>Coming Soon</h3>
+        <p>Casino licensing news, Crown and Star updates, and Australian casino statistics.</p>
+        <span class="news-date">Publication date: TBC</span>
+      </article>
+      <article class="news-card news-card--placeholder">
+        <span class="news-cat cat-poker">Poker</span>
+        <h3>Coming Soon</h3>
+        <p>Poker tournament news, online poker statistics and regulation updates for Australia.</p>
+        <span class="news-date">Publication date: TBC</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ABOUT / EEAT ===================== -->
+<section class="section-block section-alt" id="about" aria-labelledby="about-heading">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">About This Site</span>
+      <h2 id="about-heading">Who We Are</h2>
+      <p class="section-intro">Betting in Australia is an independent statistics and news publication. We do not accept advertising or payments from gambling operators. All data is sourced from government bodies, academic institutions and peer-reviewed research.</p>
+    </div>
+    <div class="author-grid">
+      <div class="author-card">
+        <div class="author-avatar" aria-hidden="true">JM</div>
+        <h3>James Morrow</h3>
+        <p class="author-title">Lead Data Analyst</p>
+        <p>James has over a decade of experience in Australian gambling policy research, previously working with the AIHW and contributing to three editions of the National Gambling Survey. He oversees all statistical content on this site.</p>
+      </div>
+      <div class="author-card">
+        <div class="author-avatar" aria-hidden="true">SK</div>
+        <h3>Sarah Kowalski</h3>
+        <p class="author-title">Senior Journalist — Gambling &amp; Regulation</p>
+        <p>Sarah has covered gambling legislation and harm reduction for Australian outlets for eight years. She holds a Masters in Public Policy from the University of Melbourne and monitors all state and federal regulatory developments.</p>
+      </div>
+      <div class="author-card">
+        <div class="author-avatar" aria-hidden="true">TP</div>
+        <h3>Tom Pascoe</h3>
+        <p class="author-title">Sports Betting Correspondent</p>
+        <p>Tom specialises in Australian sports betting markets, wagering economics and the AFL. He has written for several leading sports media outlets and brings hands-on knowledge of how betting markets move in Australia.</p>
+      </div>
+    </div>
+    <p class="editorial-note">All statistics cited on this site include links to primary sources. Where estimates are used, methodology is stated. <a href="/pages/about.html">Read our full editorial policy →</a></p>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="/" class="footer-logo" aria-label="Betting in Australia Home">
+          <svg viewBox="0 0 240 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <text x="0" y="30" font-family="'Playfair Display', serif" font-weight="900" font-size="20" fill="#F2C94C">Betting in Australia</text>
+          </svg>
+        </a>
+        <p>Australia's independent source for gambling statistics, news and data.</p>
+        <p class="age-notice">🔞 18+ only. Gamble responsibly.</p>
+      </div>
+      <div class="footer-nav">
+        <h4>Statistics</h4>
+        <ul>
+          <li><a href="/pages/statistics.html">National Overview</a></li>
+          <li><a href="/pages/betting.html">Sports Betting</a></li>
+          <li><a href="/pages/casino.html">Casino</a></li>
+          <li><a href="/pages/pokies.html">Pokies</a></li>
+          <li><a href="/pages/poker.html">Poker</a></li>
+        </ul>
+      </div>
+      <div class="footer-nav">
+        <h4>State Data</h4>
+        <ul>
+          <li><a href="/states/nsw.html">New South Wales</a></li>
+          <li><a href="/states/vic.html">Victoria</a></li>
+          <li><a href="/states/qld.html">Queensland</a></li>
+          <li><a href="/states/wa.html">Western Australia</a></li>
+          <li><a href="/states/sa.html">SA / TAS / NT / ACT</a></li>
+        </ul>
+      </div>
+      <div class="footer-nav">
+        <h4>Support &amp; Info</h4>
+        <ul>
+          <li><a href="/pages/responsible-gambling.html">Responsible Gambling</a></li>
+          <li><a href="/pages/about.html">About Us</a></li>
+          <li><a href="https://www.acma.gov.au/" rel="nofollow noopener" target="_blank">ACMA</a></li>
+          <li><a href="https://responsiblewagering.com.au/" rel="nofollow noopener" target="_blank">Responsible Wagering Australia</a></li>
+          <li><a href="https://gamblershelp.com.au/" rel="nofollow noopener" target="_blank">Gamblers Help</a></li>
+          <li><a href="https://www.gamblinghelponline.org.au/" rel="nofollow noopener" target="_blank">Gambling Help Online</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="disclaimer">Betting in Australia is an independent statistics and news site. We do not accept advertising or payments from gambling operators. Statistics are sourced from government and academic publications and are updated as new data becomes available.</p>
+      <p class="copyright">© <span id="year"></span> Betting in Australia — <a href="https://betinaustralia.com">betinaustralia.com</a></p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

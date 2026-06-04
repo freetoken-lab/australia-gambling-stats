@@ -1,4 +1,5 @@
 {
+  "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
     { "source": "/pages/statistics",           "destination": "/statistics",           "permanent": true },
@@ -16,22 +17,5 @@
     { "source": "/states/tas",                 "destination": "/tas",                  "permanent": true },
     { "source": "/states/nt",                  "destination": "/nt",                   "permanent": true },
     { "source": "/states/act",                 "destination": "/act",                  "permanent": true }
-  ],
-  "rewrites": [
-    { "source": "/statistics",            "destination": "/pages/statistics.html" },
-    { "source": "/betting",               "destination": "/pages/betting.html" },
-    { "source": "/casino",                "destination": "/pages/casino.html" },
-    { "source": "/poker",                 "destination": "/pages/poker.html" },
-    { "source": "/pokies",                "destination": "/pages/pokies.html" },
-    { "source": "/responsible-gambling",  "destination": "/pages/responsible-gambling.html" },
-    { "source": "/about",                 "destination": "/pages/about.html" },
-    { "source": "/nsw",                   "destination": "/states/nsw.html" },
-    { "source": "/vic",                   "destination": "/states/vic.html" },
-    { "source": "/qld",                   "destination": "/states/qld.html" },
-    { "source": "/wa",                    "destination": "/states/wa.html" },
-    { "source": "/sa",                    "destination": "/states/sa.html" },
-    { "source": "/tas",                   "destination": "/states/tas.html" },
-    { "source": "/nt",                    "destination": "/states/nt.html" },
-    { "source": "/act",                   "destination": "/states/act.html" }
   ]
 }

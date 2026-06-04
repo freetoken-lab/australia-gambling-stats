@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tasmania Gambling Statistics 2025 – Pokies, Wrest Point, Federal Group & Cashless Card</title>
+  <meta name="description" content="Complete gambling statistics for Tasmania — the home of Australia's first casino. Wrest Point, Country Club Casino, Federal Group's monopoly, the shelved cashless gaming card reform, and the Deloitte review of pokies policy." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://betinaustralia.com/tas" />
+  <meta property="og:title" content="Tasmania Gambling Statistics 2025 – Australia's First Casino State" />
+  <meta property="og:description" content="Tasmania opened Australia's first legal casino in 1973. It nearly became the first state to introduce mandatory cashless gaming — then shelved it. Full data on EGMs, Federal Group, Wrest Point and the ongoing policy debate." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://betinaustralia.com/tas" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tasmania Gambling Statistics 2025",
+    "datePublished": "2025-05-12",
+    "dateModified": "2025-05-12",
+    "author": { "@type": "Person", "name": "Sarah Kowalski", "url": "https://betinaustralia.com/about#sarah-kowalski" },
+    "publisher": { "@type": "Organization", "name": "Betting in Australia", "url": "https://betinaustralia.com" },
+    "about": { "@type": "Place", "name": "Tasmania", "containedInPlace": { "@type": "Country", "name": "Australia" } }
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .state-hero { background: var(--hero); padding: 52px 0 44px; color: white; position: relative; overflow: hidden; border-bottom: 4px solid var(--accent); }
+    .state-hero::before { content: 'TAS'; position: absolute; right: -20px; top: -20px; font-family: var(--font-display); font-size: 14rem; font-weight: 900; color: rgba(255,255,255,0.03); line-height: 1; pointer-events: none; }
+    .state-hero h1 { font-family: var(--font-display); font-size: clamp(1.9rem,3.5vw,2.7rem); color: white; margin-bottom: 14px; line-height: 1.2; }
+    .state-hero p { font-size: 17px; color: rgba(255,255,255,0.8); max-width: 660px; line-height: 1.7; }
+    .breadcrumb { font-size: 13px; color: rgba(255,255,255,0.5); margin-bottom: 18px; }
+    .breadcrumb a { color: var(--accent); text-decoration: none; }
+    .state-badge { display: inline-flex; align-items: center; gap: 8px; background: rgba(255,255,255,0.1); border: 1px solid rgba(242,201,76,0.3); border-radius: 30px; padding: 6px 14px; font-size: 13px; font-weight: 600; color: var(--accent); margin-bottom: 18px; }
+    .article-meta { background: var(--light-green); border-bottom: 1px solid var(--border); padding: 14px 0; }
+    .meta-inner { display: flex; align-items: center; gap: 24px; flex-wrap: wrap; font-size: 13px; color: var(--muted); }
+    .meta-author { display: flex; align-items: center; gap: 10px; }
+    .meta-avatar { width: 36px; height: 36px; border-radius: 50%; object-fit: cover; object-position: top; }
+    .meta-author strong { color: var(--text); font-size: 14px; display: block; }
+    .meta-author span { font-size: 12px; color: var(--muted); }
+    .meta-divider { color: var(--border); }
+
+    .content-grid { display: grid; grid-template-columns: 1fr 280px; gap: 48px; align-items: start; }
+    .sticky-toc { position: sticky; top: 82px; }
+    .toc-box { background: var(--light-green); border: 1px solid var(--border); border-left: 4px solid var(--mid-green); border-radius: 0 var(--radius) var(--radius) 0; padding: 20px 22px; }
+    .toc-box h3 { font-family: var(--font-display); font-size: 0.95rem; margin-bottom: 12px; color: var(--text); }
+    .toc-box ol { padding-left: 18px; display: flex; flex-direction: column; gap: 5px; }
+    .toc-box ol li a { color: var(--mid-green); text-decoration: none; font-size: 13.5px; font-weight: 600; line-height: 1.4; display: block; }
+    .toc-box ol li a:hover { text-decoration: underline; }
+
+    .article-body h2 { font-family: var(--font-display); font-size: clamp(1.4rem,2.5vw,1.85rem); color: var(--text); margin: 48px 0 16px; padding-top: 8px; border-top: 1px solid var(--border); }
+    .article-body h2:first-of-type { margin-top: 0; border-top: none; }
+    .article-body h3 { font-family: var(--font-display); font-size: 1.15rem; color: var(--text); margin: 28px 0 10px; }
+    .article-body p { font-size: 16.5px; color: #2d4a38; line-height: 1.8; margin-bottom: 18px; }
+    .article-body a { color: var(--mid-green); }
+    .article-body ul { padding-left: 22px; margin-bottom: 18px; }
+    .article-body ul li { font-size: 16px; color: #2d4a38; line-height: 1.7; margin-bottom: 6px; }
+
+    .key-stats-bar { display: grid; grid-template-columns: repeat(4,1fr); gap: 14px; margin: 28px 0; }
+    .ks-card { background: var(--hero); border-radius: var(--radius); padding: 18px 16px; text-align: center; }
+    .ks-val { display: block; font-family: var(--font-display); font-size: 1.7rem; color: var(--accent); line-height: 1; margin-bottom: 6px; font-weight: 700; }
+    .ks-label { font-size: 12px; color: rgba(255,255,255,0.75); line-height: 1.4; }
+    .ks-source { display: block; font-size: 10px; color: rgba(255,255,255,0.4); margin-top: 4px; }
+    .ks-source a { color: rgba(255,255,255,0.4); text-decoration: none; }
+
+    .table-wrap { overflow-x: auto; border-radius: var(--radius); border: 1px solid var(--border); margin: 20px 0 8px; }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 14px; background: var(--card-bg); }
+    .data-table thead tr { background: var(--hero); color: white; }
+    .data-table th { padding: 12px 14px; text-align: left; font-size: 12.5px; font-weight: 700; letter-spacing: 0.3px; white-space: nowrap; }
+    .data-table td { padding: 11px 14px; border-bottom: 1px solid var(--border); vertical-align: top; line-height: 1.5; }
+    .data-table tbody tr:last-child td { border-bottom: none; }
+    .data-table tbody tr:hover { background: var(--light-green); }
+    .data-table td a { color: var(--mid-green); font-weight: 600; text-decoration: none; }
+    .table-caption { font-size: 12.5px; color: var(--muted); margin-top: 6px; font-style: italic; }
+    .tr-highlight { background: rgba(242,201,76,0.07); font-weight: 600; }
+
+    .callout-box { background: var(--light-green); border: 1px solid var(--border); border-left: 4px solid var(--mid-green); border-radius: 0 var(--radius) var(--radius) 0; padding: 18px 22px; margin: 22px 0; font-size: 15px; color: var(--muted); line-height: 1.7; }
+    .callout-box strong { color: var(--text); }
+    .callout-warning { background: #fef3c7; border-left-color: #b45309; }
+    .callout-warning strong { color: #92400e; }
+    .callout-danger { background: #fee2e2; border-left-color: #991b1b; }
+    .callout-danger strong { color: #991b1b; }
+
+    .chart-wrap { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; margin: 20px 0 8px; }
+
+    /* Federal Group monopoly box */
+    .federal-box { background: #1e1b4b; border-radius: var(--radius-lg); padding: 28px 32px; margin: 20px 0; color: white; }
+    .federal-box h3 { font-family: var(--font-display); font-size: 1.2rem; color: var(--accent); margin-bottom: 12px; }
+    .federal-box p { color: rgba(255,255,255,0.82); font-size: 15px; line-height: 1.75; margin-bottom: 12px; }
+    .federal-box p:last-child { margin-bottom: 0; }
+    .federal-stats { display: grid; grid-template-columns: repeat(3,1fr); gap: 12px; margin: 14px 0; }
+    .fs { text-align: center; padding: 12px; background: rgba(255,255,255,0.07); border-radius: var(--radius); }
+    .fs strong { display: block; font-family: var(--font-display); font-size: 1.4rem; color: var(--accent); line-height: 1; margin-bottom: 4px; }
+    .fs span { font-size: 11px; color: rgba(255,255,255,0.65); }
+
+    /* Casino cards */
+    .casino-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin: 20px 0; }
+    .casino-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden; }
+    .cc-header { background: var(--hero); padding: 14px 18px; }
+    .cc-header h3 { font-family: var(--font-display); font-size: 1rem; color: white; margin: 0; }
+    .cc-header p { font-size: 12px; color: rgba(255,255,255,0.6); margin: 3px 0 0; }
+    .cc-body { padding: 16px 18px; display: flex; flex-direction: column; gap: 7px; }
+    .cc-row { display: flex; justify-content: space-between; font-size: 13.5px; padding: 5px 0; border-bottom: 1px solid var(--border); }
+    .cc-row:last-child { border-bottom: none; }
+    .cc-row span:first-child { color: var(--muted); }
+    .cc-row span:last-child { font-weight: 600; color: var(--text); }
+
+    /* Reform shelved box */
+    .shelved-box { background: #fef2f2; border: 1px solid #fecaca; border-left: 4px solid #991b1b; border-radius: 0 var(--radius-lg) var(--radius-lg) 0; padding: 24px 28px; margin: 20px 0; }
+    .shelved-box h3 { font-family: var(--font-display); font-size: 1.15rem; color: #991b1b; margin-bottom: 12px; }
+    .shelved-box p { font-size: 15px; color: #7f1d1d; line-height: 1.7; margin-bottom: 10px; }
+
+    /* 1973 history box */
+    .history-box { background: var(--light-green); border: 1px solid var(--border); border-left: 4px solid var(--mid-green); border-radius: 0 var(--radius-lg) var(--radius-lg) 0; padding: 24px 28px; margin: 20px 0; }
+    .history-box h3 { font-family: var(--font-display); font-size: 1.1rem; color: var(--text); margin-bottom: 10px; }
+    .history-box p { font-size: 15px; color: var(--muted); line-height: 1.7; margin-bottom: 10px; }
+    .history-box p:last-child { margin-bottom: 0; }
+
+    /* Reform timeline */
+    .reform-tl { display: flex; flex-direction: column; gap: 0; margin: 20px 0; position: relative; }
+    .reform-tl::before { content: ''; position: absolute; left: 20px; top: 0; bottom: 0; width: 2px; background: var(--border); }
+    .rtl-item { display: flex; gap: 20px; padding: 0 0 22px 0; }
+    .rtl-dot { width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; flex-shrink: 0; position: relative; z-index: 1; color: white; }
+    .rtl-done { background: var(--mid-green); }
+    .rtl-shelved { background: #991b1b; }
+    .rtl-pending { background: #b45309; }
+    .rtl-content { padding-top: 8px; }
+    .rtl-year { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--mid-green); margin-bottom: 4px; display: block; }
+    .rtl-content h4 { font-family: var(--font-display); font-size: 1rem; color: var(--text); margin-bottom: 5px; }
+    .rtl-content p { font-size: 14px; color: var(--muted); line-height: 1.6; margin: 0; }
+
+    .state-nav { display: grid; grid-template-columns: repeat(4,1fr); gap: 10px; margin: 20px 0; }
+    .state-nav-card { display: flex; flex-direction: column; align-items: center; padding: 12px 8px; background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius); text-decoration: none; color: var(--text); transition: all 0.2s; text-align: center; }
+    .state-nav-card:hover { border-color: var(--mid-green); background: var(--light-green); }
+    .state-nav-card.active { border-color: var(--accent); background: var(--light-green); }
+    .state-nav-card strong { font-family: var(--font-display); font-size: 1rem; color: var(--mid-green); }
+    .state-nav-card span { font-size: 11px; color: var(--muted); margin-top: 2px; }
+
+    .author-bio-footer { background: var(--light-green); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 24px 28px; display: flex; gap: 20px; align-items: flex-start; margin-top: 48px; }
+    .author-bio-photo { width: 72px; height: 72px; border-radius: 50%; object-fit: cover; object-position: top; flex-shrink: 0; }
+    .author-bio-text h4 { font-family: var(--font-display); font-size: 1rem; margin-bottom: 2px; }
+    .author-bio-text .bio-title { font-size: 12px; color: var(--mid-green); font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; display: block; }
+    .author-bio-text p { font-size: 14px; color: var(--muted); line-height: 1.6; margin: 0; }
+
+    @media (max-width: 1024px) {
+      .content-grid { grid-template-columns: 1fr; }
+      .sticky-toc { display: none; }
+      .key-stats-bar { grid-template-columns: repeat(2,1fr); }
+      .casino-grid { grid-template-columns: 1fr; }
+      .federal-stats { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 640px) {
+      .key-stats-bar { grid-template-columns: 1fr 1fr; }
+      .state-nav { grid-template-columns: repeat(2,1fr); }
+      .author-bio-footer { flex-direction: column; }
+      .federal-stats { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="site-header" id="site-header">
+  <div class="container header-inner">
+    <a href="/" class="logo" aria-label="Betting in Australia">
+      <svg class="logo-svg" viewBox="0 0 680 90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <g transform="translate(0,8) scale(0.265)">
+          <path fill="#F2C94C" d="M257.229,117.41l-4.888-11.82L239.54,90.716l-5.631-17.505l-13.546-8.606l-5.605-31.236l-8.844-3.081l-7.49-28.262l-8.234,12.616l-7.437,35.434l-5.844,1.567l-31.05-20.904l3.107-11.794l7.65-7.012L134.037,7.02l-22.949,5.631l-10.97,18.141l-16.362-7.039L66.6,33.976l-1.263,10.743l-9.338,2.914l-9.084,21.462L2.663,91.034L2,110.478l6.959,9.376l-3.533,5.525l16.379,33.043l-1.195,19.124l12.36,4.223l18.859-10.518l21.01-1.966l3.054-6.135l12.06-7.224l30.227-6.694l16.229,5.313l8.181,11.846l19.31,6.136l6.853,18.3l21.063,13.494l8.818-6.269l10.305,6.428l18.621-6.162l15.405-31.714l4.675-2.365L258,139.987L257.229,117.41z M199.777,237.973l11.98-1.939l3.48-13.52l-18.912-3.931L199.777,237.973z"/>
+        </g>
+        <text x="80" y="42" font-family="'Playfair Display',serif" font-weight="900" font-size="28" fill="#FFFFFF" letter-spacing="0.5">Betting in Australia</text>
+        <text x="80" y="62" font-family="'Source Sans 3',sans-serif" font-weight="400" font-size="11" fill="#F2C94C" letter-spacing="3.5">GAMBLING STATISTICS &amp; NEWS</text>
+      </svg>
+    </a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/statistics">Statistics</a></li>
+        <li><a href="/betting">Betting</a></li>
+        <li><a href="/casino">Casino</a></li>
+        <li><a href="/poker">Poker</a></li>
+        <li><a href="/pokies">Pokies</a></li>
+        <li class="has-dropdown">
+          <a href="/tas" class="active">State Data ▾</a>
+          <ul class="dropdown">
+            <li><a href="/nsw">New South Wales</a></li>
+            <li><a href="/vic">Victoria</a></li>
+            <li><a href="/qld">Queensland</a></li>
+            <li><a href="/wa">Western Australia</a></li>
+            <li><a href="/sa">South Australia</a></li>
+            <li><a href="/tas" class="active">Tasmania</a></li>
+            <li><a href="/nt">Northern Territory</a></li>
+            <li><a href="/act">ACT</a></li>
+          </ul>
+        </li>
+        <li><a href="/responsible-gambling">Responsible Gambling</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="state-hero">
+  <div class="container">
+    <nav class="breadcrumb"><a href="/">Home</a> &rsaquo; <a href="/statistics">Statistics</a> &rsaquo; Tasmania</nav>
+    <div class="state-badge">🗺 State Data &middot; Tasmania</div>
+    <h1>Tasmania Gambling Statistics 2025</h1>
+    <p>Tasmania opened Australia's first legal casino in 1973. In 2024, it came closer than any Australian state to introducing mandatory cashless gaming cards — then shelved the plan. The story of gambling in Tasmania is one of political influence, a unique corporate monopoly, and a community losing over $190 million a year to EGMs in a state with fewer than 600,000 people.</p>
+  </div>
+</section>
+
+<div class="article-meta">
+  <div class="container">
+    <div class="meta-inner">
+      <div class="meta-author">
+        <img src="images/authors/sarah-kowalski.webp" alt="Sarah Kowalski" class="meta-avatar" />
+        <div><strong>Sarah Kowalski</strong><span>Senior Journalist — Gambling &amp; Regulation</span></div>
+      </div>
+      <span class="meta-divider">|</span>
+      <div class="meta-author">
+        <img src="images/authors/liam-thorne.webp" alt="Liam Thorne" class="meta-avatar" />
+        <div>
+          <strong style="font-size:11px;text-transform:uppercase;letter-spacing:1px;font-weight:700;color:var(--mid-green);">Fact Checked by</strong>
+          <span style="display:block;color:var(--text);font-size:14px;font-weight:600;">Liam Thorne, Senior Editor</span>
+        </div>
+      </div>
+      <span class="meta-divider">|</span>
+      <span>📅 Last updated: <strong style="color:var(--text);">12 May 2025</strong></span>
+      <span class="meta-divider">|</span>
+      <span>Source: <a href="https://www.treasury.tas.gov.au/gambling-industry-data" rel="nofollow noopener" target="_blank" style="color:var(--mid-green);font-weight:600;">Treasury &amp; Finance Tasmania</a></span>
+    </div>
+  </div>
+</div>
+
+<section class="section-block">
+  <div class="container">
+    <div class="content-grid">
+      <article class="article-body">
+
+        <div class="key-stats-bar">
+          <div class="ks-card">
+            <span class="ks-val">$524K</span>
+            <span class="ks-label">Lost per day on Tasmanian pokies (Aug 2024 average)</span>
+            <span class="ks-source"><a href="https://tasmanianinquirer.com.au/news/analysis-secret-study-casts-shadow-over-tasmanian-government-policy-to-slash-pokies-harm/" rel="nofollow noopener" target="_blank">Tasmanian Inquirer / DTF</a></span>
+          </div>
+          <div class="ks-card">
+            <span class="ks-val">~2,700</span>
+            <span class="ks-label">Total EGMs (casinos + hotels + clubs)</span>
+            <span class="ks-source"><a href="https://www.qgso.qld.gov.au/statistics/theme/society/gambling/australian-gambling-statistics" rel="nofollow noopener" target="_blank">QGSO 40th Ed.</a></span>
+          </div>
+          <div class="ks-card">
+            <span class="ks-val">1973</span>
+            <span class="ks-label">Year Wrest Point opened — Australia's first legal casino</span>
+            <span class="ks-source">Historical record</span>
+          </div>
+          <div class="ks-card">
+            <span class="ks-val">Shelved</span>
+            <span class="ks-label">Mandatory cashless gaming card — Nov 2024</span>
+            <span class="ks-source">Premier Rockliff</span>
+          </div>
+        </div>
+
+        <div class="state-nav">
+          <a href="/nsw" class="state-nav-card"><strong>NSW</strong><span>View data</span></a>
+          <a href="/vic" class="state-nav-card"><strong>VIC</strong><span>View data</span></a>
+          <a href="/qld" class="state-nav-card"><strong>QLD</strong><span>View data</span></a>
+          <a href="/wa" class="state-nav-card"><strong>WA</strong><span>View data</span></a>
+          <a href="/sa" class="state-nav-card"><strong>SA</strong><span>View data</span></a>
+          <a href="/tas" class="state-nav-card active"><strong>TAS</strong><span>You are here</span></a>
+          <a href="/nt" class="state-nav-card"><strong>NT</strong><span>View data</span></a>
+          <a href="/act" class="state-nav-card"><strong>ACT</strong><span>View data</span></a>
+        </div>
+
+        <!-- SECTION 1 — OVERVIEW -->
+        <h2 id="overview">Tasmania — Overview</h2>
+
+        <p>Tasmania is a small state with a disproportionately significant place in Australian gambling history and policy. It was home to Australia's first legal casino — Wrest Point in Sandy Bay, Hobart, which opened on 10 February 1973 — predating mainland casinos by over a decade. It has a unique corporate structure in which a single private company, Federal Group, controls both casinos and is the sole EGM operator across all hotels and clubs in the state.</p>
+
+        <p>With approximately 570,000 people, Tasmania loses around $190 million annually to pub and club EGMs, plus additional losses at its two casinos. On a per-adult basis, this represents one of the lowest EGM loss rates among states with unrestricted machine access — Tasmania has a low EGM density by design, with a state-wide cap of 2,500 machines in hotels and clubs and per-venue limits of 40 for clubs and 30 for hotels. The casinos add approximately another 600 machines. Despite these limits, <a href="https://tasmanianinquirer.com.au/news/analysis-secret-study-casts-shadow-over-tasmanian-government-policy-to-slash-pokies-harm/" rel="nofollow noopener" target="_blank">data released by Treasury and Finance Tasmania</a> shows more than $524,000 was lost per day in August 2024 — and more than $1.1 billion has been lost since the 2018 state election.</p>
+
+        <div class="callout-box callout-warning">
+          <strong>$1.1 billion since the 2018 election:</strong> The 2018 Tasmanian state election was effectively a referendum on pokies — Labor campaigned on removing machines from pubs and clubs; Liberal Premier Will Hodgman campaigned to keep them. The Liberals won. In the years since, more than $1.1 billion has been lost by Tasmanians on those same machines. The statistic has been cited repeatedly by Independent MLCs in the Tasmanian Parliament pressing for cashless gaming reform.
+        </div>
+
+        <!-- SECTION 2 — HISTORY -->
+        <h2 id="history">Australia's First Casino — A Brief History</h2>
+
+        <div class="history-box">
+          <h3>🎲 Wrest Point, 1973 — Australia's Gambling Pioneer</h3>
+          <p>The Wrest Point Hotel Casino opened in Sandy Bay, Hobart, on 10 February 1973, following a 1968 public referendum in which the proposal was approved by 56% of Tasmanian voters. It was Australia's first legal casino — predating Crown Melbourne by over two decades and representing a significant moment in Australian social history. The casino was built by Federal Hotels, now operating as Federal Group, which has maintained its casino operating licences ever since.</p>
+          <p>Tasmania's early adoption of legal casino gambling was driven by the state's acute economic challenges and its relative isolation. The argument — that a casino would attract mainland and international tourists and generate revenue for a struggling state economy — proved durable enough to persuade a majority of voters despite vocal opposition. That same economic argument has been made, in various forms, to resist almost every harm minimisation reform proposed in Tasmania in the half-century since.</p>
+          <p>The second Tasmanian casino, Country Club Casino in Launceston, opened in 1982. Both properties continue to operate under Federal Group's licence.</p>
+        </div>
+
+        <!-- SECTION 3 — FEDERAL GROUP MONOPOLY -->
+        <h2 id="federal-group">The Federal Group Monopoly</h2>
+
+        <div class="federal-box">
+          <h3>🏢 Federal Group — Tasmania's Unique Gaming Monopoly</h3>
+          <p>Federal Group is a privately owned Tasmanian company that holds an extraordinary position in the state's gambling landscape: it operates both of Tasmania's casinos AND is the sole licensed operator of all electronic gaming machines in hotels and clubs across the entire state. No other Australian jurisdiction gives a single private company this degree of control over an entire state's gaming machine operations.</p>
+          <div class="federal-stats">
+            <div class="fs"><strong>2</strong><span>Casinos (Hobart + Launceston)</span></div>
+            <div class="fs"><strong>~2,500</strong><span>Hotel/club EGM cap (state-wide)</span></div>
+            <div class="fs"><strong>~600</strong><span>Casino EGMs (both properties)</span></div>
+          </div>
+          <p>Through its subsidiary Network Gaming, Federal Group leases EGMs to hotels and clubs across Tasmania — it is both the equipment supplier and the regulatory licensee for all non-casino gaming machines in the state. It also has a restriction that prevents it from placing more than 25% of hotel EGMs in hotels it directly owns, but there is no restriction on its broader monopoly over EGM operations.</p>
+          <p>This structure means that any harm minimisation reform affecting pub and club pokies in Tasmania directly affects Federal Group's revenue — a company with deep ties to the state's political and business establishment. Tasmania's 2018 election result, in which the Liberal Party successfully fought off Labor's pokies-removal policy while receiving significant campaign support from the Tasmanian Hospitality Association, is widely cited as evidence of the political weight behind this interests.</p>
+        </div>
+
+        <!-- SECTION 4 — EGM DATA -->
+        <h2 id="egm-data">Electronic Gaming Machine Data</h2>
+
+        <p><a href="https://www.treasury.tas.gov.au/gambling-industry-data" rel="nofollow noopener" target="_blank">Treasury and Finance Tasmania</a> publishes monthly EGM expenditure data that includes both casino and non-casino machines. Uniquely among Australian states, Tasmania's published data includes casino EGMs alongside hotel and club figures, and is broken down by municipality — making it one of the more geographically granular state datasets available.</p>
+
+        <div class="table-wrap">
+          <table class="data-table" aria-label="Tasmania EGM data by venue type">
+            <thead>
+              <tr>
+                <th>Venue Type</th>
+                <th>EGMs (approx.)</th>
+                <th>Annual Losses (est.)</th>
+                <th>Per Venue Cap</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Hotels</strong></td>
+                <td>~1,300</td>
+                <td>~$100M</td>
+                <td>30 per venue</td>
+                <td>Maximum 30 EGMs per hotel; jackpots capped at $25,000</td>
+              </tr>
+              <tr>
+                <td><strong>Clubs</strong></td>
+                <td>~1,200</td>
+                <td>~$90M</td>
+                <td>40 per venue</td>
+                <td>Maximum 40 EGMs per club; lower effective tax rate</td>
+              </tr>
+              <tr>
+                <td><strong>Wrest Point Casino (Hobart)</strong></td>
+                <td>~400</td>
+                <td>~$75M</td>
+                <td>Casino licence</td>
+                <td>Australia's first casino (1973); recently renovated ($65M, 2018–2023)</td>
+              </tr>
+              <tr>
+                <td><strong>Country Club Casino (Launceston)</strong></td>
+                <td>~200</td>
+                <td>~$30M</td>
+                <td>Casino licence</td>
+                <td>Opened 1982; regional market; significantly smaller than Wrest Point</td>
+              </tr>
+              <tr class="tr-highlight">
+                <td><strong>Total (all venues)</strong></td>
+                <td>~3,100</td>
+                <td>~$295M</td>
+                <td>State cap: 2,500 (non-casino)</td>
+                <td>Lowest EGM density of mainland-comparable states; monthly data by municipality</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="table-caption">Sources: <a href="https://www.treasury.tas.gov.au/gambling-industry-data" rel="nofollow noopener" target="_blank">Treasury and Finance Tasmania</a>; <a href="https://www.qgso.qld.gov.au/statistics/theme/society/gambling/australian-gambling-statistics" rel="nofollow noopener" target="_blank">QGSO 40th Edition</a>. EGM counts are approximate; casino figures include machines across both properties.</p>
+
+        <!-- SECTION 5 — CASINOS -->
+        <h2 id="casinos">Tasmania's Two Casinos</h2>
+
+        <div class="casino-grid">
+          <div class="casino-card">
+            <div class="cc-header">
+              <h3>Wrest Point Hotel Casino</h3>
+              <p>Sandy Bay, Hobart &middot; Opened 10 February 1973</p>
+            </div>
+            <div class="cc-body">
+              <div class="cc-row"><span>EGMs</span><span>~400</span></div>
+              <div class="cc-row"><span>Table games</span><span>~20+</span></div>
+              <div class="cc-row"><span>Hotel rooms</span><span>269</span></div>
+              <div class="cc-row"><span>Operator</span><span>Federal Group</span></div>
+              <div class="cc-row"><span>Recent renovations</span><span>~$65M (2018–2023)</span></div>
+              <div class="cc-row"><span>Historical significance</span><span>Australia's first legal casino</span></div>
+            </div>
+          </div>
+          <div class="casino-card">
+            <div class="cc-header">
+              <h3>Country Club Casino</h3>
+              <p>Prospect Vale, Launceston &middot; Opened 1982</p>
+            </div>
+            <div class="cc-body">
+              <div class="cc-row"><span>EGMs</span><span>~200</span></div>
+              <div class="cc-row"><span>Table games</span><span>~10+</span></div>
+              <div class="cc-row"><span>Operator</span><span>Federal Group</span></div>
+              <div class="cc-row"><span>Location</span><span>Golf course resort complex</span></div>
+              <div class="cc-row"><span>Market</span><span>Northern Tasmania / Launceston region</span></div>
+              <div class="cc-row"><span>Revenue</span><span>Substantially smaller than Wrest Point</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SECTION 6 — CASHLESS CARD SAGA -->
+        <h2 id="cashless-card">The Cashless Gaming Card Saga</h2>
+
+        <p>The story of Tasmania's cashless gaming card is one of the most significant — and most frustrating — episodes in recent Australian gambling policy. In 2023 and 2024, Tasmania was poised to become the first Australian state to introduce mandatory pre-commitment cashless gaming for all EGMs. It came closer to implementation than any other jurisdiction — and then pulled back at the final moment under industry pressure.</p>
+
+        <div class="shelved-box">
+          <h3>✗ Shelved — November 2024</h3>
+          <p>In November 2024, Premier Jeremy Rockliff's government abruptly announced it would not proceed with the mandatory cashless gaming card scheme it had been developing for over two years. The scheme would have required all players to use a pre-registered identity-linked card to operate any gaming machine, with default limits of <strong>$100 per day, $500 per month and $5,000 per year</strong>. It had been developed in consultation with the Tasmanian Liquor and Gaming Commission and was described as the most comprehensive harm minimisation reform in Tasmania's history.</p>
+          <p>The government's stated reason for shelving the scheme was a preference for a "national approach" in co-ordination with other states. Critics — including Independent MLCs, health advocates and the Alliance for Gambling Reform — rejected this explanation, noting that no national agreement on cashless gaming exists or is imminent. The real reason, they argued, was the same one that has shaped Tasmanian gambling policy for 50 years: industry pressure from Federal Group and the Tasmanian Hospitality Association.</p>
+        </div>
+
+        <div class="callout-box callout-warning">
+          <strong>The Deloitte review:</strong> In a significant transparency failure revealed in late 2024, the Tasmanian Government disclosed it had secretly commissioned <a href="https://www.stategrowth.tas.gov.au/__data/assets/pdf_file/0020/618023/Deloitte_Electronic-Gaming-Machine-use-in-Tasmania_Dec-2025.PDF" rel="nofollow noopener" target="_blank">Deloitte Access Economics to review the impact of gambling policy on the hospitality sector</a>. Premier Rockliff told the <em>Tasmanian Inquirer</em> the contract was finalised in August or September 2024 and the report would be released "pretty soon." The existence of this secret industry-impact study — conducted as the government was ostensibly committed to cashless gaming reform — fuelled widespread alarm that the government was preparing to retreat from its commitments under cover of economic modelling. The Deloitte report was eventually published in December 2025, concluding that the central scenario for EGM reform would boost the Tasmanian economy by $230 million and create 209 jobs over 2024–2030 — directly contradicting the industry's argument that harm minimisation would damage the economy.
+        </div>
+
+        <h3>The Reform Timeline</h3>
+
+        <div class="reform-tl">
+          <div class="rtl-item">
+            <div class="rtl-dot rtl-done">2018</div>
+            <div class="rtl-content">
+              <span class="rtl-year">March 2018</span>
+              <h4>The Pokies Election</h4>
+              <p>Labor under Rebecca White campaigns on removing all pokies from pubs and clubs — framed as a major election commitment. The Liberal Party, backed by the Tasmanian Hospitality Association, campaigns to retain machines. The Liberals win with a majority government. The pokies-removal policy becomes a political liability Labor does not revisit until 2024.</p>
+            </div>
+          </div>
+          <div class="rtl-item">
+            <div class="rtl-dot rtl-done">2022</div>
+            <div class="rtl-content">
+              <span class="rtl-year">2022</span>
+              <h4>Cashless Gaming Card Announced</h4>
+              <p>The Rockliff government announces the development of a mandatory cashless gaming scheme, framing it as a harm minimisation measure and a compromise position between the removal of machines and the status quo. The Tasmanian Liquor and Gaming Commission begins developing the technical and policy framework.</p>
+            </div>
+          </div>
+          <div class="rtl-item">
+            <div class="rtl-dot rtl-done">2023</div>
+            <div class="rtl-content">
+              <span class="rtl-year">Mid-2023</span>
+              <h4>Scheme Design Finalised — Default Limits Announced</h4>
+              <p>The TLGC finalises the scheme design. Default limits are set at $100/day, $500/month and $5,000/year — with players able to self-set lower limits but unable to raise beyond the defaults without a formal application. Implementation is targeted for December 2025.</p>
+            </div>
+          </div>
+          <div class="rtl-item">
+            <div class="rtl-dot rtl-done">OCT 2024</div>
+            <div class="rtl-content">
+              <span class="rtl-year">October 2024</span>
+              <h4>Government Secretly Commissions Deloitte Review</h4>
+              <p>The Department of State Growth commissions Deloitte Access Economics to review the economic impact of gambling policy on the hospitality sector. The existence of the review is not disclosed to parliament or the public until late October 2024, when the Premier confirms it under questioning.</p>
+            </div>
+          </div>
+          <div class="rtl-item">
+            <div class="rtl-dot rtl-shelved">NOV</div>
+            <div class="rtl-content">
+              <span class="rtl-year">November 2024</span>
+              <h4>Mandatory Card Shelved — Government Retreats</h4>
+              <p>Premier Rockliff announces the mandatory cashless gaming card will not proceed as planned, citing a preference for national co-ordination. Independent MLCs, health advocates and gambling researchers condemn the decision. The Tasmanian Inquirer reports over $1.1 billion has been lost on pokies since the 2018 election.</p>
+            </div>
+          </div>
+          <div class="rtl-item">
+            <div class="rtl-dot rtl-done">DEC 2025</div>
+            <div class="rtl-content">
+              <span class="rtl-year">December 2025</span>
+              <h4>Deloitte Report Released — Backs Reform</h4>
+              <p>The Deloitte Access Economics report on EGM reform in Tasmania is published. Its central scenario — cashless gaming with the proposed default limits — projects a net economic <em>benefit</em> of $230 million and 209 additional jobs over 2024–2030. The findings directly contradict the industry's case that harm minimisation would damage the Tasmanian economy.</p>
+            </div>
+          </div>
+          <div class="rtl-item">
+            <div class="rtl-dot rtl-pending">2026</div>
+            <div class="rtl-content">
+              <span class="rtl-year">2025–2026</span>
+              <h4>Policy Future Uncertain</h4>
+              <p>With the Deloitte report now public, political pressure on the government to revisit the cashless card is growing. Independent MLCs and the Tasmanian Greens have committed to continue advocating. Labor — under new leadership — has abandoned the removal policy and supports cashless gaming as a middle path. Federal Group's licence arrangements continue under rolling five-year terms.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- SECTION 7 — TOTAL GAMBLING -->
+        <h2 id="by-product">Gambling Losses by Product</h2>
+
+        <div class="chart-wrap">
+          <canvas id="tasProductChart" height="100" role="img" aria-label="Bar chart showing Tasmania gambling losses by product"></canvas>
+        </div>
+        <p class="table-caption">Estimated TAS gambling losses by product, AUD millions (~2022–23). Casino includes both Wrest Point and Country Club. Sources: QGSO 40th Ed.; Treasury TAS.</p>
+
+        <div class="table-wrap">
+          <table class="data-table" aria-label="Tasmania gambling losses by product">
+            <thead>
+              <tr>
+                <th>Product</th>
+                <th>Est. Annual Losses</th>
+                <th>Market Share</th>
+                <th>Regulator</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="tr-highlight">
+                <td><strong>EGMs (Hotels + Clubs)</strong></td>
+                <td>~$190M</td>
+                <td>~37%</td>
+                <td>TLGC / Federal Group</td>
+                <td>$524K/day (Aug 2024); $1.1B since 2018 election</td>
+              </tr>
+              <tr>
+                <td><strong>Casino (Wrest Point + Country Club)</strong></td>
+                <td>~$105M</td>
+                <td>~20%</td>
+                <td>TLGC / Federal Group</td>
+                <td>Table games + casino EGMs; includes keno at casinos</td>
+              </tr>
+              <tr>
+                <td><strong>Lotteries</strong></td>
+                <td>~$100M</td>
+                <td>~20%</td>
+                <td>The Lottery Corporation (TattsLotto brand)</td>
+                <td>High effective tax rate; online channel growing</td>
+              </tr>
+              <tr>
+                <td><strong>Wagering (Racing + Sports)</strong></td>
+                <td>~$80M</td>
+                <td>~16%</td>
+                <td>TLGC / Tabcorp TAB</td>
+                <td>New Wagering Tax from January 2020; 15% POCT rate</td>
+              </tr>
+              <tr>
+                <td><strong>Keno</strong></td>
+                <td>~$35M</td>
+                <td>~7%</td>
+                <td>TLGC</td>
+                <td>Available at hotels, clubs and casinos</td>
+              </tr>
+              <tr class="tr-highlight">
+                <td><strong>Total</strong></td>
+                <td>~$510M</td>
+                <td>100%</td>
+                <td>TLGC</td>
+                <td>~$283 per adult in EGM losses — lower than most states</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="table-caption">Sources: <a href="https://www.qgso.qld.gov.au/statistics/theme/society/gambling/australian-gambling-statistics" rel="nofollow noopener" target="_blank">QGSO 40th Edition</a>; <a href="https://www.treasury.tas.gov.au/gambling-industry-data" rel="nofollow noopener" target="_blank">Treasury and Finance Tasmania</a>; Tasmanian Inquirer analysis. Figures are estimates; totals may vary by source and period.</p>
+
+        <!-- SECTION 8 — REGULATION -->
+        <h2 id="regulation">Gambling Regulation in Tasmania</h2>
+
+        <p>Tasmania's gambling regulatory framework is administered by the <strong>Tasmanian Liquor and Gaming Commission (TLGC)</strong>, which oversees all forms of gambling under the Gaming Control Act 1993. The Commission regulates casinos, EGMs, wagering, keno and lotteries, as well as the Responsible Gambling Mandatory Code of Practice — a code that establishes minimum standards for all licensed gambling venues in the state.</p>
+
+        <p>Key current regulatory features include:</p>
+
+        <ul>
+          <li><strong>Maximum of 2,500 EGMs</strong> in hotels and clubs state-wide — among the lowest caps in Australia relative to population</li>
+          <li><strong>30 machines per hotel</strong>, 40 per club — strict per-venue limits that prevent the large pokie floors found in NSW and Queensland clubs</li>
+          <li><strong>$25,000 jackpot cap</strong> on hotel EGMs — introduced following a 2017 responsible gambling code review</li>
+          <li><strong>$100 EFTPOS withdrawal limit</strong> per patron per day at hotels (not including meals/accommodation)</li>
+          <li>Prohibition on <strong>serving alcohol to daytime EGM players</strong> in hotels</li>
+          <li><strong>Monthly EGM data by municipality</strong> published by Treasury and Finance Tasmania — one of Australia's more transparent state datasets</li>
+          <li>Tasmanian <strong>Gambling Exclusion Scheme</strong> — state-level self-exclusion covering all EGM venues and casinos</li>
+        </ul>
+
+        <p>The TLGC completed a review of the Responsible Gambling Mandatory Code of Practice in 2017, adopting eight of eighteen proposed changes. Proposals to ban on-site pokies advertising, mute machine jingles, and toughen regulations for self-excluded gamblers were not adopted at that time.</p>
+
+        <!-- SECTION 9 — WAGERING AND TAXATION -->
+        <h2 id="taxation">Wagering Tax and Gambling Revenue</h2>
+
+        <p>Tasmania introduced a dedicated Wagering Tax on 1 January 2020, applying a 15% rate on net wagering revenue from Tasmanian residents exceeding $150,000 per year. This is consistent with the Point of Consumption Tax model adopted nationally from 2018–2020. Like other small states, Tasmania's absolute gambling tax revenue is modest in national terms — approximately $180 million annually — but represents around 4% of total state revenue.</p>
+
+        <p>The Federal Group's casino and EGM monopoly means that a substantial portion of Tasmania's gambling tax revenue comes from a single private corporate entity. This dependency has historically made the government cautious about reforms that could reduce Federal Group's revenue — though the Deloitte report's finding that the central reform scenario would <em>grow</em> the overall economy may shift this calculation.</p>
+
+        <!-- SECTION 10 — HARM -->
+        <h2 id="harm">Gambling Harm in Tasmania</h2>
+
+        <p>Despite having lower per-capita EGM losses than NSW, Queensland or the ACT, gambling harm in Tasmania is real and well-documented. The state's relatively small population means that even modest absolute loss figures translate to significant community impact. Research consistently shows that a disproportionate share of EGM losses comes from problem gamblers, who account for approximately 48% of total EGM expenditure in Tasmania despite being a small fraction of all players — a figure consistent with national research.</p>
+
+        <ul>
+          <li><strong>$524,000 per day</strong> was lost on Tasmanian pokies on average in August 2024 — with the daily total rising in the months when the cashless card scheme would have been implemented</li>
+          <li>More than <strong>$1.1 billion</strong> has been lost on pokies since the March 2018 election — the equivalent of roughly $2,000 for every adult Tasmanian</li>
+          <li>The Tasmanian Social and Economic Impact Study (SEIS) found that <strong>moderate-risk and problem gamblers</strong> contributed 48% of total EGM expenditure</li>
+          <li>The Deloitte report (December 2025) found cashless gaming reform would reduce EGM participation and harm while producing a net economic benefit of $230 million — directly addressing the government's stated concern about economic impact</li>
+          <li>Tasmania's per-adult EGM loss of approximately $283 is lower than NSW ($978) and the ACT (highest per-adult loss nationally) but higher than Western Australia (casino only)</li>
+        </ul>
+
+        <div class="callout-box">
+          <strong>Get help in Tasmania:</strong> <a href="https://www.gamblinghelponline.org.au/" rel="nofollow noopener" target="_blank">Gambling Help Online</a> is available free of charge 24/7 — call <strong>1800 858 858</strong>. The Tasmanian Gambling Support Line also offers free state-based counselling and referral services. Visit our <a href="/responsible-gambling">Responsible Gambling page</a> for a full list of resources.
+        </div>
+
+        <div class="author-bio-footer">
+          <img src="images/authors/sarah-kowalski.webp" alt="Sarah Kowalski" class="author-bio-photo" />
+          <div class="author-bio-text">
+            <h4>Sarah Kowalski</h4>
+            <span class="bio-title">Senior Journalist — Gambling &amp; Regulation</span>
+            <p>Sarah has covered Australian gambling legislation and harm reduction for eight years. Her work has been cited in Senate committee hearings on wagering advertising. She holds a Masters in Public Policy from the University of Melbourne. <a href="/about#sarah-kowalski">Full bio →</a></p>
+          </div>
+        </div>
+
+      </article>
+
+      <aside class="sticky-toc" aria-label="Table of contents">
+        <nav class="toc-box">
+          <h3>On this page</h3>
+          <ol>
+            <li><a href="#overview">Tasmania overview</a></li>
+            <li><a href="#history">Australia's first casino</a></li>
+            <li><a href="#federal-group">Federal Group monopoly</a></li>
+            <li><a href="#egm-data">EGM machine data</a></li>
+            <li><a href="#casinos">Wrest Point &amp; Country Club</a></li>
+            <li><a href="#cashless-card">Cashless card saga</a></li>
+            <li><a href="#by-product">Losses by product</a></li>
+            <li><a href="#regulation">Regulation</a></li>
+            <li><a href="#taxation">Wagering tax</a></li>
+            <li><a href="#harm">Gambling harm</a></li>
+          </ol>
+        </nav>
+        <div style="margin-top:14px;padding:14px;background:#fee2e2;border:1px solid #fecaca;border-radius:var(--radius);font-size:13px;color:#7f1d1d;line-height:1.6;">
+          <strong style="display:block;margin-bottom:5px;">Help in Tasmania</strong>
+          Free 24/7: <strong>1800 858 858</strong><br>
+          <a href="https://www.gamblinghelponline.org.au/" rel="nofollow noopener" target="_blank" style="color:#991b1b;font-weight:600;">gamblinghelponline.org.au →</a>
+        </div>
+        <div style="margin-top:10px;padding:14px;background:var(--light-green);border:1px solid var(--border);border-radius:var(--radius);font-size:13px;color:var(--muted);line-height:1.5;">
+          <strong style="display:block;color:var(--text);margin-bottom:6px;">Other states</strong>
+          <a href="/nsw" style="display:block;color:var(--mid-green);font-weight:600;margin-bottom:3px;">New South Wales →</a>
+          <a href="/vic" style="display:block;color:var(--mid-green);font-weight:600;margin-bottom:3px;">Victoria →</a>
+          <a href="/nt" style="display:block;color:var(--mid-green);font-weight:600;">Northern Territory →</a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="/" class="footer-logo"><svg viewBox="0 0 260 40" xmlns="http://www.w3.org/2000/svg"><text x="0" y="30" font-family="'Playfair Display',serif" font-weight="900" font-size="20" fill="#F2C94C">Betting in Australia</text></svg></a>
+        <p>Australia's independent source for gambling statistics, news and data.</p>
+        <p class="age-notice">🔞 18+ only. Gamble responsibly.</p>
+      </div>
+      <div class="footer-nav">
+        <h4>Statistics</h4>
+        <ul>
+          <li><a href="/statistics">National Overview</a></li>
+          <li><a href="/betting">Sports Betting</a></li>
+          <li><a href="/casino">Casino</a></li>
+          <li><a href="/pokies">Pokies</a></li>
+          <li><a href="/poker">Poker</a></li>
+        </ul>
+      </div>
+      <div class="footer-nav">
+        <h4>State Data</h4>
+        <ul>
+          <li><a href="/nsw">New South Wales</a></li>
+          <li><a href="/vic">Victoria</a></li>
+          <li><a href="/qld">Queensland</a></li>
+          <li><a href="/wa">Western Australia</a></li>
+          <li><a href="/sa">South Australia</a></li>
+          <li><a href="/tas"><strong>Tasmania</strong></a></li>
+          <li><a href="/nt">Northern Territory</a></li>
+          <li><a href="/act">ACT</a></li>
+        </ul>
+      </div>
+      <div class="footer-nav">
+        <h4>Support &amp; Info</h4>
+        <ul>
+          <li><a href="/responsible-gambling">Responsible Gambling</a></li>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="https://www.acma.gov.au/" rel="nofollow noopener" target="_blank">ACMA</a></li>
+          <li><a href="https://www.gamblinghelponline.org.au/" rel="nofollow noopener" target="_blank">Gambling Help Online</a></li>
+          <li><a href="https://responsiblewagering.com.au/" rel="nofollow noopener" target="_blank">Responsible Wagering AU</a></li>
+          <li><a href="https://www.betstop.gov.au/" rel="nofollow noopener" target="_blank">BetStop</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="disclaimer">Betting in Australia is an independent statistics and news site. We do not accept advertising or payments from gambling operators.</p>
+      <p class="copyright">&copy; <span id="year"></span> Betting in Australia &mdash; <a href="https://betinaustralia.com">betinaustralia.com</a></p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  const toggle = document.getElementById('nav-toggle');
+  const nav = document.getElementById('main-nav');
+  if (toggle && nav) {
+    toggle.addEventListener('click', function() {
+      const open = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+    });
+    document.querySelectorAll('.has-dropdown > a').forEach(function(link) {
+      link.addEventListener('click', function(e) {
+        if (window.innerWidth <= 768) { e.preventDefault(); link.parentElement.classList.toggle('open'); }
+      });
+    });
+  }
+
+  const ctx = document.getElementById('tasProductChart');
+  if (ctx) {
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['Hotel/Club EGMs', 'Casino (both)', 'Lotteries', 'Wagering', 'Keno'],
+        datasets: [{
+          label: 'Estimated losses (AUD millions)',
+          data: [190, 105, 100, 80, 35],
+          backgroundColor: ['rgba(20,75,44,0.85)','rgba(30,27,75,0.75)','rgba(242,201,76,0.85)','rgba(168,197,181,0.85)','rgba(168,197,181,0.5)'],
+          borderRadius: 5,
+          borderSkipped: false
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { display: false },
+          tooltip: { callbacks: { label: function(c) { return ' ~AUD $' + c.parsed.y + 'M'; } } }
+        },
+        scales: {
+          y: { ticks: { callback: function(v) { return '$' + v + 'M'; }, color: '#5a7a65' }, grid: { color: 'rgba(0,0,0,0.05)' } },
+          x: { ticks: { color: '#0D3D22' }, grid: { display: false } }
+        }
+      }
+    });
+  }
+</script>
+</body>
+</html>

@@ -103,4 +103,12 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- News -->
+  <url>
+    <loc>https://betinaustralia.com/betting/racing-nsw-illegal-offshore-betting-payouts</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>
